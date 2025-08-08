@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Grounds by Barns — Character</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <meta name="theme-color" content="#111111"/>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__top">
+      <div class="brand">
+        <div class="bean"></div>
+        <span class="brand__name">Grounds by Barns</span>
+      </div>
+      <div class="controls">
+        <button id="shareBtn" class="btn outline" aria-label="Share">↗</button>
+        <select id="langSelect" class="select" aria-label="Language">
+          <option value="en">EN</option>
+          <option value="ar">AR</option>
+        </select>
+      </div>
+    </div>
+    <div class="hero__grid">
+      <div class="hero__copy">
+        <h1 id="charTitle">Character</h1>
+        <p id="charTag" class="muted"></p>
+        <p id="qrHint" class="hint"></p>
+        <div class="ctaRow">
+          <a id="buyLink" class="btn solid" href="#" target="_blank" rel="noopener">Shop</a>
+          <a href="#usage" class="btn ghost">How to Use →</a>
+        </div>
+      </div>
+      <div class="hero__art">
+        <img id="charImg" alt="Character" width="360" height="360"/>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2 id="aboutTitle">About Grounds</h2>
+      <p id="aboutCopy"></p>
+      <ul id="scentList" class="chips"></ul>
+      <p class="badge" id="madeBadge"></p>
+    </section>
+
+    <section id="usage" class="card">
+      <h2 id="usageTitle">How to Use</h2>
+      <ol id="usageSteps" class="steps"></ol>
+    </section>
+
+    <section class="card">
+      <h2 id="originTitle">Origin Story</h2>
+      <p id="originCopy"></p>
+      <p class="muted" id="sourcingCopy"></p>
+    </section>
+
+    <section class="card">
+      <h2 id="tipsTitle">Tips & FAQ</h2>
+      <ul id="tipsList" class="bullets"></ul>
+    </section>
+
+    <footer class="foot">
+      <small id="footerNote">This page was unlocked from your sleeve QR.</small>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
