@@ -25,5 +25,5 @@ The page reads `char` and `lang` then swaps colors, avatar, and text from a conf
 - `script.js` — data + logic for routing and i18n
 - `assets/characters/*.svg` — placeholder avatars (replace with your art)
 
-## Deploy
-You can host on any static host (Netlify, Vercel, GitHub Pages, S3, etc.). Just upload the folder.
+
+
