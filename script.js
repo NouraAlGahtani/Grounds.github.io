@@ -32,7 +32,7 @@ const CHARACTERS = {
   1: {
     name: { en: "Kind Brew", ar: "مشروب لطيف" },
     tagline: { en: "soft glow, gentle polish", ar: "توهج ناعم وتقشير لطيف" },
-    avatar: "assets/characters/1.svg",
+    avatar: "assets/characters/muneria.png",
     gradA: "#ef4444", gradB: "#f59e0b",
     scent: ["orange peel","brown sugar","espresso"],
     usage: [
@@ -57,7 +57,7 @@ const CHARACTERS = {
   2: {
     name: { en: "Calm Cover", ar: "هدوء أنيق" },
     tagline: { en: "extra hydration, spa vibe", ar: "ترطيب عميق وإحساس سبا" },
-    avatar: "assets/characters/2.svg",
+    avatar: "assets/characters/Faisal.png",
     gradA: "#a78bfa", gradB: "#6366f1",
     scent: ["lavender","vanilla","espresso"],
     usage: [
@@ -80,7 +80,7 @@ const CHARACTERS = {
   3: {
     name: { en: "Fresh Roast", ar: "تحميصة منعشة" },
     tagline: { en: "bright & energizing", ar: "منعش ومفعم بالطاقة" },
-    avatar: "assets/characters/3.svg",
+    avatar: "assets/characters/Salman.png",
     gradA: "#10b981", gradB: "#22d3ee",
     scent: ["mint","citrus","coffee"],
     usage: [
@@ -102,7 +102,7 @@ const CHARACTERS = {
   4: {
     name: { en: "Gold Blend", ar: "المزيج الذهبي" },
     tagline: { en: "warm notes, cozy feel", ar: "نوتات دافئة وإحساس مريح" },
-    avatar: "assets/characters/4.svg",
+    avatar: "assets/characters/najd.png",
     gradA: "#f59e0b", gradB: "#ef4444",
     scent: ["caramel","spice","espresso"],
     usage: [
@@ -122,7 +122,7 @@ const CHARACTERS = {
   5: {
     name: { en: "Classic Cup", ar: "الكوب الكلاسيكي" },
     tagline: { en: "original, balanced, reliable", ar: "أصلي ومتوازن" },
-    avatar: "assets/characters/5.svg",
+    avatar: "assets/characters/shahad.png",
     gradA: "#0ea5e9", gradB: "#1f2937",
     scent: ["roasted coffee","cocoa","vanilla"],
     usage: [
