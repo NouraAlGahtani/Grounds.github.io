@@ -1,9 +1,9 @@
 // --- i18n copy ---
 const COPY = {
   en: {
-    about: "Grounds by Barns turns café coffee grounds into feel‑good body care. We blend reclaimed arabica with fine sugar and cold‑pressed oils for a gentle polish and soft, nourished skin.",
+    about: "Grounds by Barns Turns Café Coffee Grounds Into Feel‑Good Body Care. We Blend Reclaimed Arabica With Fine Sugar And Cold Pressed Oils For a Gentle Polish And Soft, Nourished Skin.",
     scentLabel: "Scent notes",
-    made: "Made with upcycled coffee",
+    made: "Made with Upcycled Coffee",
     usageTitle: "How to Use",
     aboutTitle: "About Grounds",
     originTitle: "Origin Story",
