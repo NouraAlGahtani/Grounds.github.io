@@ -2,8 +2,8 @@
 const COPY = {
   en: {
     about: "Grounds by Barns turns café coffee grounds into feel‑good body care. We blend reclaimed arabica with fine sugar and cold‑pressed oils for a gentle polish and soft, nourished skin.",
-    scentLabel: "scent notes",
-    made: "made with upcycled coffee",
+    scentLabel: "Scent notes",
+    made: "Made with upcycled coffee",
     usageTitle: "How to Use",
     aboutTitle: "About Grounds",
     originTitle: "Origin Story",
@@ -27,14 +27,14 @@ const COPY = {
 };
 
 // --- character dataset (5 sleeves) ---
-// Replace avatar with your art and tweak colors/taglines/copy
+
 const CHARACTERS = {
   1: {
     name: { en: "Kind Brew", ar: "مشروب لطيف" },
-    tagline: { en: "soft glow, gentle polish", ar: "توهج ناعم وتقشير لطيف" },
+    tagline: { en: "Soft Glow, Gentle Polish", ar: "توهج ناعم وتقشير لطيف" },
     avatar: "assets/characters/muneria.png",
     gradA: "#ef4444", gradB: "#f59e0b",
-    scent: ["orange peel","brown sugar","espresso"],
+    scent: ["Orange Peel","Brown Sugar","Espresso"],
     usage: [
       { en: "Dampen skin in the shower.", ar: "بلّلي البشرة في الدش." },
       { en: "Scoop a small handful.", ar: "خذي كمية صغيرة بيدك." },
@@ -43,10 +43,10 @@ const CHARACTERS = {
       { en: "Use 2–3× per week.", ar: "استخدميه 2–3 مرات أسبوعيًا." },
     ],
     origin: {
-      en: "Born from a love of coffee and care—what once flavored your cup now pampers your skin.",
+      en: "Born From a Love of Coffee and Care What Once Flavored Your Cup Now Pampers Your Skin.",
       ar: "وُلد من حب القهوة والعناية—ما كان ينعش فنجانك أصبح يدلل بشرتك."
     },
-    sourcing: { en: "Ethically sourced arabica · roasted in Jeddah", ar: "أرابيكا من مصادر مسؤولة · مُحمّصة في جدة" },
+    sourcing: { en: "Ethically Sourced Arabica · roasted in Jeddah", ar: "أرابيكا من مصادر مسؤولة · مُحمّصة في جدة" },
     tips: [
       { en: "Patch test if skin is sensitive.", ar: "جرّبي على منطقة صغيرة إن كانت البشرة حساسة." },
       { en: "Avoid open cuts or freshly shaved areas.", ar: "تجنبي الجروح والمناطق المحلوقة حديثًا." },
@@ -56,10 +56,10 @@ const CHARACTERS = {
   },
   2: {
     name: { en: "Calm Cover", ar: "هدوء أنيق" },
-    tagline: { en: "extra hydration, spa vibe", ar: "ترطيب عميق وإحساس سبا" },
+    tagline: { en: "Extra Hydration, Spa Vibe", ar: "ترطيب عميق وإحساس سبا" },
     avatar: "assets/characters/Faisal.png",
     gradA: "#a78bfa", gradB: "#6366f1",
-    scent: ["lavender","vanilla","espresso"],
+    scent: ["Lavender","Vanilla","Espresso"],
     usage: [
       { en: "Wet skin and apply gently.", ar: "رطّبي البشرة وطبّقي بلطف." },
       { en: "Let oils sit for 1–2 min.", ar: "اتركي الزيوت دقيقة إلى دقيقتين." },
@@ -67,7 +67,7 @@ const CHARACTERS = {
       { en: "Use 1–2× per week.", ar: "استخدميه 1–2 مرة أسبوعيًا." },
     ],
     origin: {
-      en: "We upcycle café grounds and small‑batch blend with mineral salts for deep calm.",
+      en: "We upcycle Café Grounds And Small Batch Blend With Mineral Salts For Deep Calm.",
       ar: "نعيد تدوير بقايا القهوة من المقاهي ونمزجها مع أملاح معدنية بكمّيات صغيرة لهدوء عميق."
     },
     sourcing: { en: "Small batch · responsible sourcing", ar: "دفعات صغيرة · مصادر مسؤولة" },
@@ -82,15 +82,15 @@ const CHARACTERS = {
     tagline: { en: "bright & energizing", ar: "منعش ومفعم بالطاقة" },
     avatar: "assets/characters/Salman.png",
     gradA: "#10b981", gradB: "#22d3ee",
-    scent: ["mint","citrus","coffee"],
+    scent: ["Mint","Citrus","Coffee"],
     usage: [
       { en: "Scoop, scrub, smile.", ar: "خذي، افركي، وابتسمي." },
       { en: "Focus on elbows & knees.", ar: "ركّزي على الكوعين والركبتين." },
       { en: "Rinse well.", ar: "اشطفي جيدًا." },
     ],
     origin: {
-      en: "From daily cups to daily care—energy you can feel.",
-      ar: "من فنجانك اليومي إلى عنايتك اليومية—طاقة تُحَس."
+      en: "From Daily Cups to Daily Care Energy You Can Feel.",
+      ar: "من فنجانك اليومي إلى عنايتك اليومي—طاقة تُحَس."
     },
     sourcing: { en: "Local partners · reduced waste", ar: "شراكات محلية · تقليل الهدر" },
     tips: [
@@ -101,10 +101,10 @@ const CHARACTERS = {
   },
   4: {
     name: { en: "Gold Blend", ar: "المزيج الذهبي" },
-    tagline: { en: "warm notes, cozy feel", ar: "نوتات دافئة وإحساس مريح" },
+    tagline: { en: "Warm Notes, Cozy Feel", ar: "نوتات دافئة وإحساس مريح" },
     avatar: "assets/characters/najd.png",
     gradA: "#f59e0b", gradB: "#ef4444",
-    scent: ["caramel","spice","espresso"],
+    scent: ["Caramel","Spice","Espresso"],
     usage: [
       { en: "Massage 60s then rinse.", ar: "دلّكي 60 ثانية ثم اشطفي." },
       { en: "Pat dry and moisturize.", ar: "جفّفي وربّتي مرطبًا." },
@@ -115,7 +115,7 @@ const CHARACTERS = {
     },
     sourcing: { en: "Arabica blend · small batch", ar: "مزيج أرابيكا · دفعات صغيرة" },
     tips: [
-      { en: "Best used away from open cuts.", ar: "يفضّل تجنّبه على الجروح." },
+      { en: "Best Used Away From Open Cuts.", ar: "يفضّل تجنّبه على الجروح." },
     ],
     buy: "#"
   },
@@ -124,18 +124,18 @@ const CHARACTERS = {
     tagline: { en: "original, balanced, reliable", ar: "أصلي ومتوازن" },
     avatar: "assets/characters/shahad.png",
     gradA: "#0ea5e9", gradB: "#1f2937",
-    scent: ["roasted coffee","cocoa","vanilla"],
+    scent: ["Roasted Coffee","Cocoa","Vanilla"],
     usage: [
-      { en: "Apply on wet skin.", ar: "يستخدم على بشرة مبللة." },
-      { en: "Rinse without harsh scrubbing.", ar: "اشطفي بدون فرك عنيف." },
+      { en: "Apply on Wet Skin.", ar: "يستخدم على بشرة مبللة." },
+      { en: "Rinse Without Harsh Scrubbing.", ar: "اشطفي بدون فرك عنيف." },
     ],
     origin: {
-      en: "Where it all started—our first upcycled blend, still a favorite.",
+      en: "Where it All Started Our first Upcycled Blend, Still a Favorite.",
       ar: "هنا كانت البداية—أول مزيج معاد تدويره وما زال المفضل."
     },
-    sourcing: { en: "Trusted partners · consistent quality", ar: "شركاء موثوقون · جودة ثابتة" },
+    sourcing: { en: "Trusted Partners · Consistent Quality", ar: "شركاء موثوقون · جودة ثابتة" },
     tips: [
-      { en: "Store cool and dry.", ar: "يُحفظ في مكان بارد وجاف." },
+      { en: "Store Cool And Dry.", ar: "يُحفظ في مكان بارد وجاف." },
     ],
     buy: "#"
   }
