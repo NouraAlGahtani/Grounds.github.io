@@ -57,7 +57,7 @@ const CHARACTERS = {
   2: {
     name: { en: "Calm Cover", ar: "هدوء أنيق" },
     tagline: { en: "Extra Hydration, Spa Vibe", ar: "ترطيب عميق وإحساس سبا" },
-    avatar: "assets/characters/Faisal.png",
+    avatar: "assets/characters/shahad.png",
     gradA: "#a78bfa", gradB: "#6366f1",
     scent: ["Lavender","Vanilla","Espresso"],
     usage: [
