@@ -1,29 +1,50 @@
-# Grounds by Barns — QR Character Microsite Read Guide for Team 
+☕ Grounds by Barns — QR Character Microsite
 
-A single static site that changes content based on the QR link parameters.
+Hi! 👋
 
-## How it works
+This is a Saudi-inspired QR character microsite created as part of our Grounds by Barns project for the Barns Hackathon.
 
-- Each sleeve QR goes to the **same** URL with a character id:
+The project is rooted in Saudi identity and community, with each character representing a different personality inspired by the people, culture, and stories within our society.
 
-  - ...https://nouraAlGahtani.github.io/Grounds.github.io/?char=1
+✨ The Experience
 
-https://nouraAlGahtani.github.io/Grounds.github.io/?char=2
+Each body scrub sleeve comes with a unique QR code. When scanned, it opens a minimal and personalized digital experience based on the product and character the user received.
 
-https://nouraAlGahtani.github.io/Grounds.github.io/?char=3
+The microsite includes:
 
-https://nouraAlGahtani.github.io/Grounds.github.io/?char=4
+* ☕ A brief introduction to Grounds
+* 🧴 How to use the coffee scrub
+* ♻️ The story behind the product and its use of recycled café coffee grounds
+* 💡 Tips and recommendations
+* ❓ Frequently Asked Questions
+* 🧸 A personalized character experience
 
-https://nouraAlGahtani.github.io/Grounds.github.io/?char=5
-- Optional language param: `&lang=ar` (defaults to English).
+The character experience is connected to our original mood-detection recommendation concept, where a user’s mood determines a recommended coffee drink and, ultimately, the coffee grounds and product experience they receive.
 
-The page reads `char` and `lang` then swaps colors, avatar, and text from a config in `script.js`.
+The microsite is available in Arabic and English.
 
-## Files
-- `index.html` — the page template
-- `styles.css` — styles (no frameworks)
-- `script.js` — data + logic for routing and i18n
-- `assets/characters/*.svg` — placeholder avatars (replace with your art)
+🧸 Character Experiences
 
+Explore each of the five character experiences:
 
+1. Kind Brew — Soft Glow · Gentle Polish
+    Character 1
+   https://nouraalgahtani.github.io/Grounds.github.io/?char=1&lang=en
+3. Classic Cup — Original Barns · Reliable
+    Character 2
+   https://nouraalgahtani.github.io/Grounds.github.io/?char=5&lang=en
+5. Gold Blend — Warm Notes · Cozy Feel
+    Character 3
+   https://nouraalgahtani.github.io/Grounds.github.io/?char=4&lang=en
+7. Fresh Roast — Bright · Energizing
+    Character 4
+   https://nouraalgahtani.github.io/Grounds.github.io/?char=3&lang=en
+9. Calm Cover — Extra Hydration · Spa Vibe
+    Character 5
+https://nouraalgahtani.github.io/Grounds.github.io/?char=2&lang=en
+🛠️ Built With
 
+* HTML
+* CSS
+* JavaScript
+* GitHub Pages
